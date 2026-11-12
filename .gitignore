@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.playwright-cli/
+output/playwright/
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+
+# contact-form submissions (personal data)
+/data/

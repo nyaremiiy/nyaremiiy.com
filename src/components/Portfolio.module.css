@@ -1,0 +1,15 @@
+.page {
+  position: relative;
+  /* Clip the blobs. `clip` (unlike `hidden`) is not a scroll container, so
+     anchor jumps can't scroll this box internally and hide the top of the page.
+     `hidden` stays as a fallback for browsers without `clip` (Safari < 16). */
+  overflow: hidden;
+  overflow: clip;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 56px 56px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+}

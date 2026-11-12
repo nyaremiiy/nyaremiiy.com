@@ -1,0 +1,225 @@
+/* ---------- Section shell ---------- */
+.section {
+  position: relative;
+  background: transparent;
+  color: var(--ink);
+  /* glows bleed between sections; only the page root clips */
+}
+
+@media (min-width: 1200px) {
+  .section {
+    min-height: var(--min-h, auto);
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 112px var(--gutter) 120px;
+  box-sizing: content-box;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+/* ---------- Blobs ---------- */
+.blob1,
+.blob2,
+.blob3 {
+  opacity: var(--blob-opacity);
+}
+
+.blob1 {
+  width: 640px;
+  height: 640px;
+  top: -160px;
+  left: -120px;
+  background: var(--blob-1);
+}
+
+.blob2 {
+  width: 560px;
+  height: 560px;
+  top: 120px;
+  right: -140px;
+  background: var(--blob-2);
+}
+
+.blob3 {
+  width: 480px;
+  height: 480px;
+  bottom: -220px;
+  left: 38%;
+  background: var(--blob-3);
+}
+
+@media (max-width: 767px) {
+  .blob1 {
+    width: 600px;
+    height: 600px;
+  }
+
+  .blob2 {
+    width: 540px;
+    height: 540px;
+  }
+
+  .blob3 {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+/* ---------- Section heading ---------- */
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.label {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.labelNum {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.labelText {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.h2 {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+}
+
+.lead {
+  margin: 0;
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+@media (max-width: 767px) {
+  .h2 {
+    font-size: 36px;
+  }
+
+  .lead {
+    font-size: 17px;
+  }
+}
+
+/* ---------- Tags (JetBrains Mono chips) ---------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--chip);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tagSm {
+  padding: 7px 13px;
+}
+
+/* ---------- Icon tile ---------- */
+.tile {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: var(--chip);
+  color: var(--accent);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 56px;
+  padding: 0 28px;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btnGrad {
+  background: var(--grad);
+  color: #fff;
+  box-shadow: 0 10px 36px var(--glow);
+}
+
+.btnGrad:hover {
+  color: #fff;
+  filter: brightness(1.06);
+}
+
+.btnGlass {
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  color: var(--ink);
+}
+
+.btnGlass:hover {
+  color: var(--ink);
+}
+
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+}

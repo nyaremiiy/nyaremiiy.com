@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "title": "Nazar Yaremiiy · Software Engineer from idea to launch",
+    "description": "I take on any project: a website, web app, Telegram bot, ERP system or mobile app. I take projects from Figma design to launch on my own server.",
+    "ogLocale": "en_US"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "langShort": "EN",
+    "language": "Language",
+    "langUk": "Українська",
+    "langEn": "English",
+    "theme": "Toggle theme",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "home": "Nazar Yaremiiy"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "mentoring": "Mentoring",
+    "contact": "Contact"
+  },
+  "header": {
+    "cv": "Resume"
+  },
+  "hero": {
+    "status": "Open to new projects",
+    "greeting": "Hi, I'm Nazar",
+    "title": "Software Engineer",
+    "titleShine": "from idea to launch",
+    "lead": "I take on any project: a website, web app, Telegram bot, ERP system or mobile app. I take projects from Figma design to launch on my own server, using the AI tools Claude Code and Codex.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "stackTitle": "Stack",
+    "stack": [
+      "Next.js",
+      "React",
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "PHP",
+      "Python",
+      "Java",
+      "MySQL",
+      "Docker",
+      "Nginx",
+      "Figma",
+      "Claude Code"
+    ],
+    "nowTitle": "Currently",
+    "nowText": "Software Engineer at INIT Energy",
+    "mentorTitle": "Mentoring",
+    "mentorText": "I teach programming: groups and one-on-one"
+  },
+  "about": {
+    "label": "About",
+    "title": "My story",
+    "lead": "I'm a Software Engineer who handles a project end to end: from a Figma mockup to launch on my own server.",
+    "cards": [
+      {
+        "title": "The start",
+        "text": "I began with HTML, CSS and JavaScript, and by 2023 I was teaching them at HackITStudio. Explaining things to others made me understand them deeper."
+      },
+      {
+        "title": "Experience",
+        "text": "I completed 7 SoftServe Academy courses, and since 2025 I've been a Software Engineer at INIT Energy: websites from scratch, Odoo ERP, servers."
+      },
+      {
+        "title": "Next",
+        "text": "I'm growing in backend, DevOps and mobile development to lead a product on my own from idea to launch."
+      }
+    ],
+    "ai": "I work with Claude Code and OpenAI Codex every day, which helps me write, review and debug code faster.",
+    "chips": [
+      "Software Engineer · INIT Energy",
+      "Figma → code → server",
+      "Own Ubuntu server",
+      "3D printing & modeling"
+    ],
+    "resume": {
+      "badge": "PDF",
+      "download": "Download",
+      "view": "View",
+      "previewAlt": "Nazar Yaremiiy’s resume, first page",
+      "open": "Open the resume (PDF) in a new tab"
+    }
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "What I do",
+    "lead": "The full cycle: from a Figma mockup to launch on my own server.",
+    "groups": {
+      "languages": {
+        "title": "Programming languages",
+        "tags": [
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "PHP",
+          "Python",
+          "Java"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "SCSS / Sass",
+          "Pug",
+          "jQuery",
+          "React",
+          "Redux",
+          "Redux Toolkit",
+          "React Router",
+          "Next.js"
+        ]
+      },
+      "styling": {
+        "title": "Styling & UI",
+        "tags": [
+          "Tailwind CSS",
+          "Bootstrap",
+          "Material UI",
+          "BEM"
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "PHP",
+          "Python",
+          "Telegram bots"
+        ]
+      },
+      "databases": {
+        "title": "Databases",
+        "tags": [
+          "SQL",
+          "MySQL",
+          "MariaDB",
+          "MongoDB"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile",
+        "tags": [
+          "React Native"
+        ]
+      },
+      "devops": {
+        "title": "Servers & DevOps",
+        "tags": [
+          "Linux / Ubuntu",
+          "Windows Server",
+          "Docker",
+          "Nginx",
+          "HTTPS / SSL",
+          "Deploys & domains"
+        ]
+      },
+      "tools": {
+        "title": "Tools",
+        "tags": [
+          "Git",
+          "npm",
+          "pnpm",
+          "Yarn",
+          "Postman",
+          "Gulp"
+        ]
+      },
+      "cms": {
+        "title": "CMS & ERP",
+        "tags": [
+          "WordPress",
+          "Odoo ERP",
+          "Custom Odoo modules"
+        ]
+      },
+      "design": {
+        "title": "Design",
+        "tags": [
+          "Figma",
+          "UX/UI",
+          "Prototyping"
+        ]
+      },
+      "seo": {
+        "title": "SEO & performance",
+        "tags": [
+          "Technical SEO",
+          "GEO",
+          "Performance optimization"
+        ]
+      },
+      "ai": {
+        "title": "AI development",
+        "tags": [
+          "Claude Code",
+          "OpenAI Codex"
+        ]
+      },
+      "other": {
+        "title": "Other",
+        "tags": [
+          "Teaching & mentoring",
+          "3D printing",
+          "3D modeling",
+          "Video editing"
+        ]
+      }
+    },
+    "spoken": {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "Ukrainian",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "B1 · Intermediate"
+        }
+      ]
+    }
+  },
+  "certificates": {
+    "label": "Certificates",
+    "title": "Learning",
+    "lead": "7 SoftServe Academy courses in 2025–2026: from frontend fundamentals to Node.js backend, mobile development and DevOps.",
+    "years": {
+      "2025": "4 courses",
+      "2026": "3 courses"
+    },
+    "series": "Series",
+    "verify": "Verify",
+    "items": {
+      "node": {
+        "title": "Advanced Backend with Node.js",
+        "category": "Backend",
+        "date": "August 7, 2026"
+      },
+      "rn": {
+        "title": "Mobile Development with React Native",
+        "category": "Mobile",
+        "date": "May 15, 2026"
+      },
+      "react": {
+        "title": "Advanced Frontend with React.js",
+        "category": "Frontend",
+        "date": "February 20, 2026"
+      },
+      "db": {
+        "title": "Database Fundamentals",
+        "category": "Databases",
+        "date": "September 26, 2025"
+      },
+      "devops": {
+        "title": "DevOps for Developers",
+        "category": "DevOps",
+        "date": "August 22, 2025"
+      },
+      "jsts": {
+        "title": "JavaScript / TypeScript Fundamentals",
+        "category": "JavaScript",
+        "date": "April 11, 2025"
+      },
+      "frontend": {
+        "title": "Frontend Fundamentals",
+        "category": "Frontend",
+        "date": "January 31, 2025"
+      }
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Where I've worked",
+    "jobs": {
+      "init": {
+        "role": "Software Engineer",
+        "company": "INIT Energy",
+        "meta": "Full-time · On-site",
+        "period": "Sep 2025 — Present",
+        "groups": [
+          {
+            "title": "Development",
+            "items": [
+              "Developed and maintained full-stack applications from scratch with Next.js, React, JavaScript, TypeScript, PHP and Python",
+              "Built and customized WordPress solutions with custom features and better performance"
+            ]
+          },
+          {
+            "title": "Odoo ERP",
+            "items": [
+              "Deployed, configured and maintained Odoo ERP systems",
+              "Built custom modules, optimized performance and extended functionality"
+            ]
+          },
+          {
+            "title": "Servers & DevOps",
+            "items": [
+              "Administered Linux and Windows environments: setup, configuration, troubleshooting",
+              "Configured Nginx, HTTPS/SSL, Docker containers and production environments",
+              "Configured, maintained and optimized MariaDB databases"
+            ]
+          },
+          {
+            "title": "Design & quality",
+            "items": [
+              "Designed UX/UI interfaces and prototypes in Figma",
+              "Optimized performance, usability and technical SEO",
+              "Used AI tools such as Claude Code and OpenAI Codex for implementation and debugging"
+            ]
+          }
+        ],
+        "project": {
+          "kicker": "KEY PROJECT",
+          "name": "INIT ENERGY",
+          "text": "Built from scratch: design, development, SEO and GEO, server and domain",
+          "link": "init.energy"
+        },
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "PHP",
+          "Python",
+          "Odoo",
+          "WordPress",
+          "MariaDB",
+          "Docker",
+          "Nginx",
+          "Linux",
+          "Figma"
+        ]
+      },
+      "komar": {
+        "role": "Full-stack Developer",
+        "company": "KOMAR",
+        "groups": [
+          {
+            "title": "Company website",
+            "items": [
+              "Built the company website from scratch: design, development, SEO and GEO, server and domain",
+              "Product catalog, model comparison table, two languages, order form"
+            ]
+          },
+          {
+            "title": "Other work",
+            "items": [
+              "Other projects and responsibilities are under a non-disclosure agreement (NDA)"
+            ]
+          }
+        ],
+        "project": {
+          "kicker": "PROJECT",
+          "name": "KOMAR",
+          "text": "Built from scratch: design, development, SEO and GEO, server and domain",
+          "link": "komar.company"
+        },
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Claude Code",
+          "Codex"
+        ]
+      },
+      "hackit": {
+        "role": "Programming Teacher",
+        "company": "HackITStudio",
+        "meta": "Part-time · On-site",
+        "period": "Dec 2023 — Jun 2024",
+        "groups": [
+          {
+            "title": "Teaching",
+            "items": [
+              "Taught HTML, CSS and JavaScript",
+              "Planned and structured lessons with strong time management",
+              "Motivated students to think independently and creatively",
+              "Helped students build confidence in problem-solving"
+            ]
+          },
+          {
+            "title": "Growth",
+            "items": [
+              "Kept expanding my knowledge of programming and teaching methods",
+              "Deepened my grasp of programming languages through teaching and mentoring",
+              "Developed and maintained programs, solved technical problems, managed small projects"
+            ]
+          }
+        ],
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Teaching",
+          "Mentoring"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "What I've built",
+    "lead": "I build every project together with the AI tools Claude Code and OpenAI Codex. They help me get from idea to launch faster.",
+    "builtAll": "I did it all myself, from scratch:",
+    "whatsOn": "What's on the site",
+    "visit": "Visit website",
+    "github": "Code on GitHub",
+    "footnote": "GEO means optimizing a site so AI search engines find and cite it.",
+    "items": {
+      "init": {
+        "kicker": "CASE · FROM IDEA TO LAUNCH",
+        "name": "INIT ENERGY",
+        "text": "Website of the company I work at. INIT Energy designs and installs solar power plants and backup power systems for apartments, homes and businesses.",
+        "flow": [
+          "Design",
+          "Development",
+          "SEO + GEO",
+          "Server & domain"
+        ],
+        "features": [
+          "Solar plant and battery sizing calculator",
+          "Payback calculator",
+          "Two languages: Ukrainian and English",
+          "SVIT and LITHIUMVALLEY storage catalog",
+          "Consultation request form",
+          "Optimized AVIF images"
+        ],
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Server & domain",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "INIT Energy website homepage"
+      },
+      "komar": {
+        "kicker": "CASE · FROM IDEA TO LAUNCH",
+        "name": "KOMAR",
+        "text": "Website for a Ukrainian maker of initiation boards and electronics for unmanned systems: products, model comparison and ordering.",
+        "flow": [
+          "Design",
+          "Development",
+          "SEO + GEO",
+          "Server & domain"
+        ],
+        "features": [
+          "Catalog of V3.5 and V5 boards and contact switches",
+          "V5 model comparison table",
+          "Real-world use video",
+          "Two languages: Ukrainian and English",
+          "Order form, Signal and WhatsApp",
+          "Open Graph for social sharing, AVIF images"
+        ],
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Server & domain",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "KOMAR website homepage"
+      },
+      "molytva": {
+        "kicker": "PERSONAL PROJECT",
+        "name": "Moya Molytva",
+        "text": "My own website of prayers for life's important moments. It helps people find the words when they have none. It runs on my own Ubuntu server, which I administer myself.",
+        "flow": [
+          "Design",
+          "Development",
+          "SEO + GEO",
+          "Own Ubuntu server"
+        ],
+        "features": [
+          "Prayer catalog",
+          "Users can submit their own prayers",
+          "Personal lists and favorites",
+          "Sign-up and login",
+          "Live online counter",
+          "Settings, SEO and Open Graph"
+        ],
+        "tags": [
+          "Next.js",
+          "Accounts",
+          "SEO",
+          "Ubuntu",
+          "Server administration",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "Moya Molytva website homepage"
+      },
+      "bakery": {
+        "kicker": "PET PROJECT · OPEN SOURCE",
+        "name": "Shop Bakery",
+        "text": "Landing page for a modern bakery franchise chain. Built with no frameworks or dependencies, focused on performance and accessibility.",
+        "flow": [
+          "Markup",
+          "JavaScript",
+          "Optimization",
+          "GitHub Pages"
+        ],
+        "features": [
+          "Plain HTML, CSS and JavaScript, no build step",
+          "Native <dialog> for the modal and mobile menu",
+          "CSS scroll-snap carousel instead of Swiper",
+          "WebP images: from ~2.1 MB down to ~0.3 MB",
+          "Google Maps loads only near the contacts",
+          "Accessibility: skip link, reduced motion, form validation"
+        ],
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "WebP",
+          "Accessibility",
+          "GitHub Pages"
+        ],
+        "alt": "Shop Bakery landing page homepage"
+      }
+    }
+  },
+  "mentoring": {
+    "label": "Mentoring",
+    "title": "I teach programming",
+    "lead": "I'm recruiting groups and taking students for one-on-one lessons. Programming builds logic and analytical thinking, teaches how to break hard problems into simple steps and see things through. I taught at HackITStudio and use these skills every day in real projects.",
+    "benefitsTitle": "What programming gives",
+    "benefits": [
+      "Logic and analytical thinking",
+      "Problem-solving skills",
+      "Confidence and independence",
+      "First projects of their own"
+    ],
+    "topicsTitle": "What you'll learn",
+    "topics": [
+      "HTML & CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Git & GitHub",
+      "Deploying a site",
+      "Working with AI tools"
+    ],
+    "cta": "Sign up",
+    "plans": [
+      {
+        "price": "UAH 200",
+        "per": "per 90 min",
+        "title": "Group",
+        "text": "Classes in a small group, shared projects and reviewed homework."
+      },
+      {
+        "price": "UAH 300",
+        "per": "per lesson",
+        "title": "One-on-one",
+        "text": "A program built around the student's goals and pace, code reviews and help with their own project."
+      }
+    ],
+    "schedule": "Lessons are mostly in the evenings and on weekends. The exact schedule is agreed individually."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work together",
+    "lead": "Have a project, a job opening or just a question? Write to me and I'll reply within a day.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "What should I call you",
+      "phone": "Phone",
+      "phonePlaceholder": "+38 0XX XXX XX XX",
+      "contact": "Email or Telegram",
+      "contactPlaceholder": "you@example.com or @username",
+      "message": "Message",
+      "messagePlaceholder": "Tell me how I can help: a project, a job opening or lessons",
+      "consent": "By sending this form you agree that your data is used only to reply to your message.",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "errors": {
+        "nameRequired": "Tell me what to call you.",
+        "phoneInvalid": "Check the phone number: digits, spaces, brackets, hyphens and + only.",
+        "contactRequired": "Add a phone number or an email/Telegram so I can reply.",
+        "contactInvalid": "Enter an email (you@example.com) or Telegram (@username).",
+        "messageTooLong": "The message is too long (5000 characters max)."
+      },
+      "required": "required",
+      "oneOfHint": "Add a phone number or an email/Telegram, at least one.",
+      "toast": {
+        "successTitle": "Message sent!",
+        "successText": "Thank you! I got your message and will reply within a day.",
+        "errorTitle": "Couldn’t send",
+        "errorText": "Please try again a bit later or reach me directly.",
+        "close": "Dismiss notification"
+      }
+    },
+    "direct": "Or reach me directly",
+    "links": {
+      "email": "Email",
+      "telegram": "Telegram",
+      "phone": "Phone",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "cv": "Download resume"
+  },
+  "footer": {
+    "tagline": "Software Engineer. I build websites and web apps from idea to launch.",
+    "status": "Open to new projects",
+    "emailMe": "Email me",
+    "cv": "Resume",
+    "contactsTitle": "Contact",
+    "profilesTitle": "Profiles",
+    "navTitle": "Navigation",
+    "copyright": "© 2026 Nazar Yaremiiy",
+    "toTop": "Back to top",
+    "bigName": "Nazar Yaremiiy"
+  }
+}

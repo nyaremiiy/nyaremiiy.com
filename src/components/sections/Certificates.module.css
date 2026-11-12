@@ -1,0 +1,141 @@
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.year {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 40px;
+  align-items: flex-start;
+}
+
+.yearCol {
+  flex: 0 0 180px;
+  position: relative;
+}
+
+.yearNum {
+  font-family: var(--font-display);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.count {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.list {
+  flex: 1 1 640px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 20px;
+  border-radius: 26px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+}
+
+.info {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.sub {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.category {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--chip);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.date {
+  min-width: 150px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.verify {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid var(--glass-border);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  transition: background 0.2s ease;
+}
+
+.verify:hover {
+  background: var(--chip);
+  color: var(--ink);
+}
+
+@media (max-width: 767px) {
+  .yearCol {
+    flex-basis: 100%;
+  }
+
+  .yearNum {
+    font-size: 48px;
+  }
+
+  .info {
+    flex-basis: calc(100% - 66px);
+  }
+
+  .row {
+    gap: 12px 18px;
+  }
+
+  .date {
+    min-width: 0;
+  }
+
+  .verify {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+}

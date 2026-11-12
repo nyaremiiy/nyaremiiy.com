@@ -1,0 +1,33 @@
+
+/* ---------- Project screenshot ---------- */
+.shot {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.shotImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.shotPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(120% 90% at 85% 10%, rgba(255, 255, 255, 0.14), transparent 55%),
+    linear-gradient(135deg, var(--ph-from), var(--ph-to));
+  color: var(--ph-ink);
+}
+
+.shotName {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 34px);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding: 0 24px;
+}

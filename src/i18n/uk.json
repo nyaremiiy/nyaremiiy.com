@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "title": "Nazar Yaremiiy · Software Engineer від ідеї до запуску",
+    "description": "Беруся за будь-який проєкт: сайт, вебзастосунок, Telegram-бот, ERP-систему чи мобільний додаток. Веду проєкт від дизайну у Figma до запуску на власному сервері.",
+    "ogLocale": "uk_UA"
+  },
+  "ui": {
+    "skip": "Перейти до змісту",
+    "langShort": "UA",
+    "language": "Мова",
+    "langUk": "Українська",
+    "langEn": "English",
+    "theme": "Перемкнути тему",
+    "menuOpen": "Відкрити меню",
+    "menuClose": "Закрити меню",
+    "home": "Nazar Yaremiiy"
+  },
+  "nav": {
+    "about": "Про мене",
+    "skills": "Навички",
+    "experience": "Досвід",
+    "projects": "Проєкти",
+    "mentoring": "Менторство",
+    "contact": "Контакти"
+  },
+  "header": {
+    "cv": "Резюме"
+  },
+  "hero": {
+    "status": "Відкритий до нових проєктів",
+    "greeting": "Привіт, я Назар",
+    "title": "Software Engineer",
+    "titleShine": "від ідеї до запуску",
+    "lead": "Беруся за будь-який проєкт: сайт, вебзастосунок, Telegram-бот, ERP-систему чи мобільний додаток. Веду проєкт від дизайну у Figma до запуску на власному сервері, використовуючи AI-інструменти Claude Code та Codex.",
+    "ctaProjects": "Переглянути проєкти",
+    "ctaContact": "Зв'язатися",
+    "stackTitle": "Стек",
+    "stack": [
+      "Next.js",
+      "React",
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "PHP",
+      "Python",
+      "Java",
+      "MySQL",
+      "Docker",
+      "Nginx",
+      "Figma",
+      "Claude Code"
+    ],
+    "nowTitle": "Зараз працюю",
+    "nowText": "Software Engineer в INIT Energy",
+    "mentorTitle": "Менторство",
+    "mentorText": "Навчаю програмуванню: групи та індивідуально"
+  },
+  "about": {
+    "label": "Про мене",
+    "title": "Моя історія",
+    "lead": "Я Software Engineer, який веде проєкт повністю: від макета у Figma до запуску на власному сервері.",
+    "cards": [
+      {
+        "title": "Початок",
+        "text": "Почав з HTML, CSS і JavaScript, а у 2023 році вже викладав їх у HackITStudio. Пояснюючи іншим, глибше розібрався сам."
+      },
+      {
+        "title": "Досвід",
+        "text": "Пройшов 7 курсів SoftServe Academy, а з 2025 року працюю Software Engineer в INIT Energy: сайти з нуля, Odoo ERP, сервери."
+      },
+      {
+        "title": "Далі",
+        "text": "Розвиваюся в бекенді, DevOps і мобільній розробці, щоб самостійно вести продукт від ідеї до запуску."
+      }
+    ],
+    "ai": "Щодня працюю з Claude Code та OpenAI Codex: так я швидше пишу, перевіряю й налагоджую код.",
+    "chips": [
+      "Software Engineer · INIT Energy",
+      "Figma → код → сервер",
+      "Власний сервер Ubuntu",
+      "3D-друк і моделювання"
+    ],
+    "resume": {
+      "badge": "PDF",
+      "download": "Завантажити",
+      "view": "Переглянути",
+      "previewAlt": "Резюме Nazar Yaremiiy, перша сторінка",
+      "open": "Відкрити резюме (PDF) у новій вкладці"
+    }
+  },
+  "skills": {
+    "label": "Навички",
+    "title": "Що я вмію",
+    "lead": "Повний цикл: від макета у Figma до запуску на власному сервері.",
+    "groups": {
+      "languages": {
+        "title": "Мови програмування",
+        "tags": [
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "PHP",
+          "Python",
+          "Java"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "SCSS / Sass",
+          "Pug",
+          "jQuery",
+          "React",
+          "Redux",
+          "Redux Toolkit",
+          "React Router",
+          "Next.js"
+        ]
+      },
+      "styling": {
+        "title": "Стилі та UI",
+        "tags": [
+          "Tailwind CSS",
+          "Bootstrap",
+          "Material UI",
+          "BEM"
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "PHP",
+          "Python",
+          "Telegram-боти"
+        ]
+      },
+      "databases": {
+        "title": "Бази даних",
+        "tags": [
+          "SQL",
+          "MySQL",
+          "MariaDB",
+          "MongoDB"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile",
+        "tags": [
+          "React Native"
+        ]
+      },
+      "devops": {
+        "title": "Сервери і DevOps",
+        "tags": [
+          "Linux / Ubuntu",
+          "Windows Server",
+          "Docker",
+          "Nginx",
+          "HTTPS / SSL",
+          "Деплой і домени"
+        ]
+      },
+      "tools": {
+        "title": "Інструменти",
+        "tags": [
+          "Git",
+          "npm",
+          "pnpm",
+          "Yarn",
+          "Postman",
+          "Gulp"
+        ]
+      },
+      "cms": {
+        "title": "CMS та ERP",
+        "tags": [
+          "WordPress",
+          "Odoo ERP",
+          "Власні модулі Odoo"
+        ]
+      },
+      "design": {
+        "title": "Дизайн",
+        "tags": [
+          "Figma",
+          "UX/UI",
+          "Прототипи"
+        ]
+      },
+      "seo": {
+        "title": "SEO і швидкодія",
+        "tags": [
+          "Технічне SEO",
+          "GEO",
+          "Оптимізація швидкодії"
+        ]
+      },
+      "ai": {
+        "title": "AI-розробка",
+        "tags": [
+          "Claude Code",
+          "OpenAI Codex"
+        ]
+      },
+      "other": {
+        "title": "Інше",
+        "tags": [
+          "Викладання та менторство",
+          "3D-друк",
+          "3D-моделювання",
+          "Монтаж відео"
+        ]
+      }
+    },
+    "spoken": {
+      "title": "Мови",
+      "items": [
+        {
+          "name": "Українська",
+          "level": "Рідна"
+        },
+        {
+          "name": "Англійська",
+          "level": "B1 · Intermediate"
+        }
+      ]
+    }
+  },
+  "certificates": {
+    "label": "Сертифікати",
+    "title": "Навчання",
+    "lead": "7 курсів SoftServe Academy за 2025–2026 роки: від основ фронтенду до бекенду на Node.js, мобільної розробки та DevOps.",
+    "years": {
+      "2025": "4 курси",
+      "2026": "3 курси"
+    },
+    "series": "Серія",
+    "verify": "Перевірити",
+    "items": {
+      "node": {
+        "title": "Advanced Backend with Node.js",
+        "category": "Backend",
+        "date": "7 серпня 2026"
+      },
+      "rn": {
+        "title": "Mobile Development with React Native",
+        "category": "Mobile",
+        "date": "15 травня 2026"
+      },
+      "react": {
+        "title": "Advanced Frontend with React.js",
+        "category": "Frontend",
+        "date": "20 лютого 2026"
+      },
+      "db": {
+        "title": "Database Fundamentals",
+        "category": "Бази даних",
+        "date": "26 вересня 2025"
+      },
+      "devops": {
+        "title": "DevOps for Developers",
+        "category": "DevOps",
+        "date": "22 серпня 2025"
+      },
+      "jsts": {
+        "title": "JavaScript / TypeScript Fundamentals",
+        "category": "JavaScript",
+        "date": "11 квітня 2025"
+      },
+      "frontend": {
+        "title": "Frontend Fundamentals",
+        "category": "Frontend",
+        "date": "31 січня 2025"
+      }
+    }
+  },
+  "experience": {
+    "label": "Досвід",
+    "title": "Де я працював",
+    "jobs": {
+      "init": {
+        "role": "Software Engineer",
+        "company": "INIT Energy",
+        "meta": "Повний робочий день · в офісі",
+        "period": "Вер 2025 — дотепер",
+        "groups": [
+          {
+            "title": "Розробка",
+            "items": [
+              "Створював і підтримував fullstack-застосунки з нуля на Next.js, React, JavaScript, TypeScript, PHP і Python",
+              "Розробляв і доопрацьовував рішення на WordPress: власний функціонал і прискорення роботи"
+            ]
+          },
+          {
+            "title": "Odoo ERP",
+            "items": [
+              "Розгортав, налаштовував і підтримував Odoo ERP",
+              "Писав власні модулі, оптимізував продуктивність і розширював функціонал"
+            ]
+          },
+          {
+            "title": "Сервери і DevOps",
+            "items": [
+              "Адміністрував середовищ Linux і Windows: налаштування, діагностика, підтримка",
+              "Налаштовував Nginx, HTTPS/SSL, Docker-контейнери та продакшн-середовища",
+              "Налаштовував, підтримував і оптимізував бази даних MariaDB"
+            ]
+          },
+          {
+            "title": "Дизайн і якість",
+            "items": [
+              "Проєктував UX/UI-інтерфейси та прототипи у Figma",
+              "Оптимізував швидкодію, зручність і технічне SEO",
+              "Використовував AI-інструменти Claude Code та OpenAI Codex для розробки й налагодження"
+            ]
+          }
+        ],
+        "project": {
+          "kicker": "КЛЮЧОВИЙ ПРОЄКТ",
+          "name": "INIT ENERGY",
+          "text": "Сайт з нуля: дизайн, розробка, SEO і GEO, сервер і домен",
+          "link": "init.energy"
+        },
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "PHP",
+          "Python",
+          "Odoo",
+          "WordPress",
+          "MariaDB",
+          "Docker",
+          "Nginx",
+          "Linux",
+          "Figma"
+        ]
+      },
+      "komar": {
+        "role": "Fullstack-розробник",
+        "company": "KOMAR",
+        "groups": [
+          {
+            "title": "Сайт компанії",
+            "items": [
+              "Створив сайт компанії з нуля: дизайн, розробка, SEO і GEO, сервер і домен",
+              "Каталог продукції, таблиця порівняння моделей, дві мови, форма замовлення"
+            ]
+          },
+          {
+            "title": "Інша робота",
+            "items": [
+              "Решта проєктів і обов'язків під угодою про нерозголошення (NDA)"
+            ]
+          }
+        ],
+        "project": {
+          "kicker": "ПРОЄКТ",
+          "name": "KOMAR",
+          "text": "Сайт з нуля: дизайн, розробка, SEO і GEO, сервер і домен",
+          "link": "komar.company"
+        },
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Claude Code",
+          "Codex"
+        ]
+      },
+      "hackit": {
+        "role": "Викладач програмування",
+        "company": "HackITStudio",
+        "meta": "Неповний робочий день · в офісі",
+        "period": "Гру 2023 — Чер 2024",
+        "groups": [
+          {
+            "title": "Навчання",
+            "items": [
+              "Викладав HTML, CSS і JavaScript",
+              "Планував і структурував уроки, ефективно керував часом",
+              "Мотивував учнів мислити самостійно й креативно",
+              "Допомагав учням повірити в себе під час розв'язання задач"
+            ]
+          },
+          {
+            "title": "Розвиток",
+            "items": [
+              "Постійно поглиблював знання з програмування та методики викладання",
+              "Глибше опанував мови програмування завдяки викладанню й менторству",
+              "Розробляв і підтримував програми, розв'язував технічні задачі, вів невеликі проєкти"
+            ]
+          }
+        ],
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Викладання",
+          "Менторство"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "label": "Проєкти",
+    "title": "Що я зробив",
+    "lead": "Усі проєкти я створюю разом з AI-інструментами Claude Code та OpenAI Codex. Вони допомагають швидше пройти шлях від ідеї до запуску.",
+    "builtAll": "Усе зробив сам, з нуля:",
+    "whatsOn": "Що є на сайті",
+    "visit": "Відкрити сайт",
+    "github": "Код на GitHub",
+    "footnote": "GEO — оптимізація, щоб сайт знаходили й цитували AI-пошуковики.",
+    "items": {
+      "init": {
+        "kicker": "КЕЙС · ВІД ІДЕЇ ДО ЗАПУСКУ",
+        "name": "INIT ENERGY",
+        "text": "Сайт компанії, де я працюю. INIT Energy проєктує та встановлює сонячні електростанції й системи резервного живлення для квартир, будинків і бізнесу.",
+        "flow": [
+          "Дизайн",
+          "Розробка",
+          "SEO + GEO",
+          "Сервер і домен"
+        ],
+        "features": [
+          "Калькулятор потужності СЕС і накопичувача",
+          "Калькулятор окупності",
+          "Дві мови: українська та англійська",
+          "Каталог накопичувачів SVIT і LITHIUMVALLEY",
+          "Форма заявки на консультацію",
+          "Оптимізовані зображення AVIF"
+        ],
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Сервер і домен",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "Головна сторінка сайту INIT Energy"
+      },
+      "komar": {
+        "kicker": "КЕЙС · ВІД ІДЕЇ ДО ЗАПУСКУ",
+        "name": "KOMAR",
+        "text": "Сайт українського виробника плат ініціації та електроніки для безпілотних систем: продукція, порівняння моделей і замовлення.",
+        "flow": [
+          "Дизайн",
+          "Розробка",
+          "SEO + GEO",
+          "Сервер і домен"
+        ],
+        "features": [
+          "Каталог плат V3.5 і V5 та контактів",
+          "Таблиця порівняння моделей V5",
+          "Відео з реального застосування",
+          "Дві мови: українська та англійська",
+          "Форма замовлення, Signal і WhatsApp",
+          "Open Graph для соцмереж, зображення AVIF"
+        ],
+        "tags": [
+          "Next.js",
+          "Figma",
+          "SEO",
+          "GEO",
+          "Сервер і домен",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "Головна сторінка сайту KOMAR"
+      },
+      "molytva": {
+        "kicker": "ВЛАСНИЙ ПРОЄКТ",
+        "name": "Моя Молитва",
+        "text": "Мій власний сайт молитов для важливих моментів життя. Допомагає знайти слова, коли їх бракує. Працює на моєму власному сервері Ubuntu, який я сам адмініструю.",
+        "flow": [
+          "Дизайн",
+          "Розробка",
+          "SEO + GEO",
+          "Власний сервер Ubuntu"
+        ],
+        "features": [
+          "Каталог молитов",
+          "Користувачі можуть додавати свої молитви",
+          "Власні списки та «Вподобані»",
+          "Реєстрація та вхід",
+          "Лічильник людей онлайн",
+          "Налаштування, SEO і Open Graph"
+        ],
+        "tags": [
+          "Next.js",
+          "Акаунти",
+          "SEO",
+          "Ubuntu",
+          "Адміністрування сервера",
+          "Claude Code",
+          "Codex"
+        ],
+        "alt": "Головна сторінка сайту Моя Молитва"
+      },
+      "bakery": {
+        "kicker": "PET-ПРОЄКТ · ВІДКРИТИЙ КОД",
+        "name": "Shop Bakery",
+        "text": "Лендінг мережі сучасних пекарень з франшизою. Зроблений без фреймворків і залежностей, з упором на швидкодію та доступність.",
+        "flow": [
+          "Верстка",
+          "JavaScript",
+          "Оптимізація",
+          "GitHub Pages"
+        ],
+        "features": [
+          "Чистий HTML, CSS і JavaScript без збірки",
+          "Нативні <dialog> для модалки й мобільного меню",
+          "Карусель на CSS scroll-snap замість Swiper",
+          "Зображення WebP: з ~2,1 МБ до ~0,3 МБ",
+          "Google Maps вантажиться лише біля контактів",
+          "Доступність: skip-link, reduced motion, валідація форм"
+        ],
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "WebP",
+          "Доступність",
+          "GitHub Pages"
+        ],
+        "alt": "Головна сторінка лендінгу Shop Bakery"
+      }
+    }
+  },
+  "mentoring": {
+    "label": "Менторство",
+    "title": "Навчаю програмуванню",
+    "lead": "Набираю групи та беру учнів на індивідуальне навчання. Програмування розвиває логіку й аналітичне мислення, вчить розбивати складні задачі на прості кроки та доводити справу до результату. Маю досвід викладання в HackITStudio і щодня застосовую ці знання в реальних проєктах.",
+    "benefitsTitle": "Що дає програмування",
+    "benefits": [
+      "Логіка та аналітичне мислення",
+      "Вміння розв'язувати задачі",
+      "Впевненість і самостійність",
+      "Перші власні проєкти"
+    ],
+    "topicsTitle": "Чого навчу",
+    "topics": [
+      "HTML і CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Git і GitHub",
+      "Деплой сайту",
+      "Робота з AI-інструментами"
+    ],
+    "cta": "Записатися",
+    "plans": [
+      {
+        "price": "200 грн",
+        "per": "за 90 хв",
+        "title": "Група",
+        "text": "Заняття в невеликій групі, спільні проєкти та домашні завдання з перевіркою."
+      },
+      {
+        "price": "300 грн",
+        "per": "за заняття",
+        "title": "Індивідуально",
+        "text": "Програма під цілі й темп учня, розбір коду та допомога з власним проєктом."
+      }
+    ],
+    "schedule": "Заняття переважно ввечері та на вихідних. Точний графік узгоджуємо індивідуально."
+  },
+  "contact": {
+    "label": "Контакти",
+    "title": "Давайте працювати разом",
+    "lead": "Маєте проєкт, вакансію чи просто питання? Напишіть, і я відповім протягом дня.",
+    "form": {
+      "name": "Ім'я",
+      "namePlaceholder": "Як до вас звертатися",
+      "phone": "Телефон",
+      "phonePlaceholder": "+38 0XX XXX XX XX",
+      "contact": "Email або Telegram",
+      "contactPlaceholder": "you@example.com або @username",
+      "message": "Повідомлення",
+      "messagePlaceholder": "Розкажіть, з чим можу допомогти: проєкт, вакансія чи навчання",
+      "consent": "Надсилаючи форму, ви погоджуєтесь на обробку даних лише для відповіді на ваше повідомлення.",
+      "submit": "Надіслати",
+      "sending": "Надсилаю…",
+      "errors": {
+        "nameRequired": "Вкажіть, як до вас звертатися.",
+        "phoneInvalid": "Перевірте номер телефону: лише цифри, пробіли, дужки, дефіс і +.",
+        "contactRequired": "Вкажіть телефон або email/Telegram, щоб я міг відповісти.",
+        "contactInvalid": "Введіть email (you@example.com) або Telegram (@username).",
+        "messageTooLong": "Повідомлення задовге (до 5000 символів)."
+      },
+      "required": "обов’язкове поле",
+      "oneOfHint": "Вкажіть телефон або email/Telegram — хоча б щось одне.",
+      "toast": {
+        "successTitle": "Заявку надіслано!",
+        "successText": "Дякую! Я отримав ваше повідомлення й відповім протягом дня.",
+        "errorTitle": "Не вдалося надіслати",
+        "errorText": "Спробуйте ще раз трохи пізніше або напишіть мені напряму.",
+        "close": "Закрити сповіщення"
+      }
+    },
+    "direct": "Або напишіть напряму",
+    "links": {
+      "email": "Email",
+      "telegram": "Telegram",
+      "phone": "Телефон",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "cv": "Завантажити резюме"
+  },
+  "footer": {
+    "tagline": "Software Engineer. Створюю сайти й вебзастосунки від ідеї до запуску.",
+    "status": "Відкритий до нових проєктів",
+    "emailMe": "Написати мені",
+    "cv": "Резюме",
+    "contactsTitle": "Контакти",
+    "profilesTitle": "Мережі",
+    "navTitle": "Навігація",
+    "copyright": "© 2026 Nazar Yaremiiy",
+    "toTop": "Нагору",
+    "bigName": "Nazar Yaremiiy"
+  }
+}

@@ -1,0 +1,219 @@
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  border-radius: 36px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: center;
+}
+
+.copy {
+  flex: 1 1 480px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.name {
+  margin: -10px 0 0;
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: normal;
+}
+
+.text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.built {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subTitle {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.featuresTitle {
+  margin-bottom: 10px;
+}
+
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flowItem {
+  display: contents;
+}
+
+.flowArrow {
+  display: flex;
+  color: var(--muted);
+}
+
+.step {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 8px;
+  border-radius: 999px;
+  background: var(--chip);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.stepIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--glass);
+  color: var(--accent);
+}
+
+.features {
+  margin: 0;
+  padding: 0 0 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 24px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.githubBtn {
+  padding: 0 26px;
+}
+
+/* ---------- browser frame ---------- */
+.frame {
+  flex: 1 1 560px;
+  min-width: 0;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 30px 70px var(--glow);
+  background: var(--frame-bg);
+}
+
+.frameBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.address {
+  margin-left: 12px;
+  flex: 1;
+  min-width: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #c9cce0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.footnote {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+@media (max-width: 1100px) {
+  /* stacked: always show the screenshot first */
+  .card {
+    flex-direction: column-reverse;
+    /* nowrap: in a wrapping column the line is as wide as the widest item (the long URL) */
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
+  .mediaFirst {
+    flex-direction: column;
+  }
+
+  .copy,
+  .frame {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 20px;
+    gap: 28px;
+    border-radius: 28px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .features {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
