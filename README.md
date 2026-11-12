@@ -1,55 +1,123 @@
-# Nazar Yaremiiy: portfolio
+# nyaremiiy.com
 
-Next.js (App Router) + TypeScript, built from the `FullLight.dc.html` / `FullDark.dc.html` design references.
-Styling uses CSS Modules and global CSS variables. No UI kits, no Tailwind.
+Персональний сайт-портфоліо Назара Яремія — Software Engineer та ментора. Проєкт представляє досвід, навички, сертифікати, реалізовані роботи й формати менторства, а також містить форму для зв’язку.
 
-## Run
+## Основні можливості
+
+- українська та англійська локалізації (`/` і `/en`);
+- світла й темна теми зі збереженням вибору в `localStorage`;
+- адаптивний інтерфейс без сторонніх UI-бібліотек;
+- секції про досвід, навички, сертифікати, проєкти та менторство;
+- завантаження резюме у PDF та адаптивний прев’ю першої сторінки;
+- контактна форма з клієнтською і серверною валідацією;
+- захист форми через honeypot і просте обмеження частоти запитів;
+- SEO-метадані, canonical та `hreflang`, Open Graph і schema.org JSON-LD;
+- автоматичні `sitemap.xml`, `robots.txt`, `manifest.webmanifest` і `llms.txt`;
+- оптимізовані AVIF/WebP-зображення та HTTP-заголовки кешування і безпеки.
+
+## Технології
+
+- [Next.js](https://nextjs.org/) 16 з App Router;
+- [React](https://react.dev/) 19;
+- TypeScript у strict-режимі;
+- CSS Modules і глобальні CSS-змінні;
+- Playwright для візуальної перевірки.
+
+## Локальний запуск
+
+Потрібні Node.js і npm.
 
 ```bash
+git clone https://github.com/nyaremiiy/nyaremiiy.com.git
+cd nyaremiiy.com
 npm install
-npm run dev        # http://localhost:3001
-npm run build && npm start
+npm run dev
 ```
 
-- Ukrainian (default): `/`. English: `/en`.
-- Theme: dark by default. The toggle saves the choice in `localStorage` (`nyaremiiy-theme`) and an inline script applies it before first paint, so the page never flashes.
-- Set `SITE_URL` (e.g. `https://example.com`) at build time so canonical, hreflang and Open Graph URLs are absolute and correct.
+Сайт буде доступний за адресою [http://localhost:3001](http://localhost:3001).
 
-## Images
-
-To add images, put files in /public/images and set the path in src/data/*.ts
-
-- Project screenshots: `image` per project in `src/data/projects.ts`, e.g. `"/images/komar.jpg"`, plus `imageSize: [width, height]` (shown whole, at its own aspect ratio, inside the browser frame).
-
-When the field is empty, the design's placeholder is shown instead.
-
-Resume: `public/cv/Nazar_Yaremiiy_Resume.pdf`. To replace it, swap the file or change `resume` in `src/data/profile.ts`.
-The About section shows its first page from `public/resume/preview-{352,528,704,1056}.webp` (rendered straight
-from the PDF at each width, so the small text stays sharp) with a "PDF · N" badge (`resumePages`).
-When the PDF changes, re-render page 1 at those widths.
-
-## Content
-
-- All copy: `src/i18n/uk.json` and `src/i18n/en.json` (same shape, copied verbatim from the design HTML).
-- Structure, links, icons and order: `src/data/profile.ts`, `projects.ts`, `experience.ts`, `skills.ts`, `certificates.ts`.
-
-## Contact form
-
-- Required: **name** and **at least one of** phone or email/Telegram. The message is optional.
-  The same rules run in the browser and on the server (`src/lib/contact.ts`).
-- After sending, a pop-up toast confirms success or reports an error.
-- `POST /api/contact` returns 200, 422 with field errors, or 429 after 5 submissions per IP in 10 minutes.
-  A hidden honeypot field silently drops bot submissions.
-- Submissions are appended to **`data/submissions.jsonl`** (one JSON object per line: id, date, locale, name,
-  phone, contact, message, user agent). The folder is git-ignored. Override the path with `SUBMISSIONS_FILE`.
-  Note: this needs a server with a persistent disk (`npm start` on a VPS). It won't persist on serverless hosting.
-- Telegram bot: add it in `saveSubmission()` in `src/lib/submissions.ts` (marked `TODO(telegram)`).
-
-## Visual QA scripts
+Для production-збірки:
 
 ```bash
-# side-by-side with the reference PNGs (light.png / dark.png in REF_DIR)
-BASE_URL=http://localhost:3001 REF_DIR=path/to/refs node scripts/shoot.mjs projects 1440 out/
-# element-box diff against the design HTML rendered in the same browser
-node scripts/measure.mjs path/to/FullLight.dc.html http://localhost:3001/ '[["cards","#skills .glass","#skills [class*=card]"]]'
+npm run build
+npm start
 ```
+
+## Команди
+
+| Команда | Призначення |
+| --- | --- |
+| `npm run dev` | Запускає development-сервер на порту `3001` |
+| `npm run build` | Створює production-збірку |
+| `npm start` | Запускає production-сервер на порту `3001` |
+| `npm run lint` | Перевіряє типи через `tsc --noEmit` |
+
+## Змінні середовища
+
+Створіть `.env.local` у корені проєкту за потреби:
+
+```env
+SITE_URL=https://nyaremiiy.com
+SUBMISSIONS_FILE=./data/submissions.jsonl
+```
+
+| Змінна | Опис |
+| --- | --- |
+| `SITE_URL` | Публічна адреса сайту для canonical, Open Graph, sitemap і JSON-LD |
+| `SUBMISSIONS_FILE` | Шлях до JSONL-файлу із заявками з контактної форми |
+
+Якщо `SUBMISSIONS_FILE` не задано, заявки зберігаються у `data/submissions.jsonl`. Каталог `data/` не потрапляє до Git.
+
+> Контактна форма записує дані у файлову систему, тому в production потрібне постійне сховище. На serverless-платформах локальний файл може не зберігатися між запусками.
+
+## Керування контентом
+
+Основні дані винесені з компонентів:
+
+| Контент | Файл |
+| --- | --- |
+| Переклади інтерфейсу | `src/i18n/uk.json`, `src/i18n/en.json` |
+| Контакти та резюме | `src/data/profile.ts` |
+| Проєкти | `src/data/projects.ts` |
+| Досвід роботи | `src/data/experience.ts` |
+| Навички | `src/data/skills.ts` |
+| Сертифікати | `src/data/certificates.ts` |
+| Менторські плани | `src/data/mentoring.ts` |
+
+Зображення проєктів зберігаються у `public/images`, PDF-резюме — у `public/cv`. Після заміни PDF потрібно також оновити адаптивні прев’ю у `public/resume` та кількість сторінок у `src/data/profile.ts`.
+
+## Контактна форма
+
+Endpoint `POST /api/contact`:
+
+- приймає ім’я та щонайменше один спосіб зв’язку — телефон або email/Telegram;
+- повертає `422` для невалідних полів;
+- повертає `429` після п’яти заявок з однієї IP-адреси протягом десяти хвилин;
+- непомітно відсіює ботів через приховане honeypot-поле;
+- зберігає кожну заявку окремим JSON-об’єктом у JSONL-файлі.
+
+Формат запису містить ID, дату, локаль, ім’я, контактні дані, повідомлення та User-Agent. Дані заявок є персональними й не повинні потрапляти до репозиторію.
+
+## Структура проєкту
+
+```text
+app/                    маршрути, metadata API та контактний endpoint
+public/                 статичні зображення, іконка та резюме
+scripts/                інструменти візуального порівняння
+src/components/         компоненти сторінки та секцій
+src/data/               структурований контент портфоліо
+src/i18n/               словники локалізацій
+src/lib/                SEO, навігація, валідація і збереження заявок
+src/styles/             глобальні стилі й дизайн-токени
+```
+
+## Візуальна перевірка
+
+У `scripts/` є допоміжні Playwright-скрипти для порівняння сторінки з референсними знімками та вимірювання блоків:
+
+```bash
+BASE_URL=http://localhost:3001 REF_DIR=path/to/refs node scripts/shoot.mjs projects 1440 output/
+node scripts/measure.mjs path/to/reference.html http://localhost:3001/ '[["skills","#skills"]]'
+```
+
+Для запуску потрібен локально встановлений Chrome або значення `PW_CHANNEL` з назвою доступного браузерного каналу.
