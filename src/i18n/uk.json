@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Nazar Yaremiiy · Software Engineer від ідеї до запуску",
-    "description": "Беруся за будь-який проєкт: сайт, вебзастосунок, Telegram-бот, ERP-систему чи мобільний додаток. Веду проєкт від дизайну у Figma до запуску на власному сервері.",
+    "title": "Назар Яремій (Nazar Yaremiiy) · Software Engineer",
+    "description": "Назар Яремій — Software Engineer, також Nazar Yaremiiy, Nazar Yaremii та nyaremiiy. Створюю сайти й застосунки від дизайну у Figma до запуску.",
     "ogLocale": "uk_UA"
   },
   "ui": {
@@ -28,7 +28,7 @@
   },
   "hero": {
     "status": "Відкритий до нових проєктів",
-    "greeting": "Привіт, я Назар",
+    "greeting": "Привіт, я Назар Яремій",
     "title": "Software Engineer",
     "titleShine": "від ідеї до запуску",
     "lead": "Беруся за будь-який проєкт: сайт, вебзастосунок, Telegram-бот, ERP-систему чи мобільний додаток. Веду проєкт від дизайну у Figma до запуску на власному сервері, використовуючи AI-інструменти Claude Code та Codex.",

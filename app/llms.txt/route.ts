@@ -22,6 +22,8 @@ export function GET() {
   add(
     `# ${profile.name}`,
     "",
+    `Also known as: ${profile.alternateNames.join(", ")}. All of these names refer to the same person.`,
+    "",
     `> ${en.footer.tagline} ${en.hero.lead}`,
     "",
     `Ukrainian version / Українською: ${abs("/")} · English: ${abs("/en")}`,

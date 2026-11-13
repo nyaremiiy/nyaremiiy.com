@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Nazar Yaremiiy · Software Engineer from idea to launch",
-    "description": "I take on any project: a website, web app, Telegram bot, ERP system or mobile app. I take projects from Figma design to launch on my own server.",
+    "title": "Nazar Yaremiiy (Nazar Yaremii) · Software Engineer",
+    "description": "Nazar Yaremiiy, also known as Nazar Yaremii, Назар Яремій and nyaremiiy, is a Software Engineer building websites and apps from Figma to launch.",
     "ogLocale": "en_US"
   },
   "ui": {
@@ -28,7 +28,7 @@
   },
   "hero": {
     "status": "Open to new projects",
-    "greeting": "Hi, I'm Nazar",
+    "greeting": "Hi, I'm Nazar Yaremiiy",
     "title": "Software Engineer",
     "titleShine": "from idea to launch",
     "lead": "I take on any project: a website, web app, Telegram bot, ERP system or mobile app. I take projects from Figma design to launch on my own server, using the AI tools Claude Code and Codex.",

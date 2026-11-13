@@ -1,5 +1,7 @@
 export const profile = {
   name: "Nazar Yaremiiy",
+  /** Search aliases/transliterations that all refer to the same person. */
+  alternateNames: ["Nazar Yaremii", "Назар Яремій", "nyaremiiy"],
   /** Resume PDF in /public/cv. Used by every "Resume / Download resume" button. */
   resume: "/cv/Nazar_Yaremiiy_Resume.pdf",
   /** Number of pages in the resume, shown on the "PDF · N" badge in About. */
@@ -36,4 +38,4 @@ export const profile = {
 } as const;
 
 /** Public site URL, used for canonical / Open Graph URLs. Override with SITE_URL. */
-export const siteUrl = process.env.SITE_URL ?? "https://nyaremiiy.github.io";
+export const siteUrl = process.env.SITE_URL ?? "https://nyaremiiy.com";

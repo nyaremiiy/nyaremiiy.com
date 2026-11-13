@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { getDictionary, type Locale } from "@/src/i18n";
-import { siteUrl } from "@/src/data/profile";
+import { profile, siteUrl } from "@/src/data/profile";
 import { allSkills } from "@/src/lib/seo";
 
 export function buildMetadata(locale: Locale): Metadata {
@@ -10,12 +10,12 @@ export function buildMetadata(locale: Locale): Metadata {
     metadataBase: new URL(siteUrl),
     title: t.meta.title,
     description: t.meta.description,
-    applicationName: "Nazar Yaremiiy",
-    authors: [{ name: "Nazar Yaremiiy", url: path }],
-    creator: "Nazar Yaremiiy",
-    publisher: "Nazar Yaremiiy",
+    applicationName: profile.name,
+    authors: [{ name: profile.name, url: path }],
+    creator: profile.name,
+    publisher: profile.name,
     category: "technology",
-    keywords: ["Nazar Yaremiiy", "Software Engineer", "Fullstack", ...allSkills(locale).slice(0, 24)],
+    keywords: [profile.name, ...profile.alternateNames, "Software Engineer", "Full-stack Developer", ...allSkills(locale).slice(0, 24)],
     robots: {
       index: true,
       follow: true,
@@ -34,7 +34,7 @@ export function buildMetadata(locale: Locale): Metadata {
       lastName: "Yaremiiy",
       username: "nyaremiiy",
       url: path,
-      siteName: "Nazar Yaremiiy",
+      siteName: profile.name,
       title: t.meta.title,
       description: t.meta.description,
       locale: t.meta.ogLocale,
