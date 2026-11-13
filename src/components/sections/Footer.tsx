@@ -38,7 +38,12 @@ export function Footer({ t, locale }: { t: Dictionary; locale: Locale }) {
               {f.status}
             </div>
             <div className={s.ctas}>
-              <a href={`mailto:${profile.email}`} className={cx(ui.btn, ui.btnGrad, s.btnSm, s.btnMail)}>
+              <a
+                href={profile.telegram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cx(ui.btn, ui.btnGrad, s.btnSm, s.btnMail)}
+              >
                 {f.emailMe}
                 <Icon name="arrowRight" size={18} />
               </a>

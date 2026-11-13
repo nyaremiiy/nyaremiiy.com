@@ -2,6 +2,7 @@ import { getDictionary, type Locale } from "@/src/i18n";
 import { buildJsonLd } from "@/src/lib/seo";
 import { Header } from "./header/Header";
 import { RevealObserver } from "./RevealObserver";
+import { ScrollToTop } from "./ScrollToTop";
 import { Hero } from "./sections/Hero";
 import { About } from "./sections/About";
 import { Skills } from "./sections/Skills";
@@ -38,6 +39,7 @@ export function Portfolio({ locale }: { locale: Locale }) {
         <Contact t={t} locale={locale} />
         <Footer t={t} locale={locale} />
       </div>
+      <ScrollToTop label={t.footer.toTop} />
       <RevealObserver />
     </>
   );
